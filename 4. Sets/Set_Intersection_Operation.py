@@ -1,0 +1,5 @@
+m= int(input())
+str1= set(map(int, input().split()))
+n= int(input())
+str2= set(map(int, input().split()))
+print (len(str1.intersection(str2)))
